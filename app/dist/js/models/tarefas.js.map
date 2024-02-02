@@ -1,0 +1,1 @@
+{"version":3,"file":"tarefas.js","sourceRoot":"","sources":["../../../src/models/tarefas.ts"],"names":[],"mappings":"AAEA,MAAM,OAAO,OAAO;IAIhB;QACI,IAAI,CAAC,OAAO,GAAG,EAAE,CAAC;IACtB,CAAC;IAED,cAAc,CAAC,MAAc;QACzB,IAAI,CAAC,OAAO,CAAC,IAAI,CAAC,MAAM,CAAC,CAAC;IAC9B,CAAC;IAED,IAAI,YAAY;QACZ,OAAO,IAAI,CAAC,OAAO,CAAA;IACvB,CAAC;CAEJ"}

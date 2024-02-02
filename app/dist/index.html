@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>To-do</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="cabecalho">
+    <div class="cabecalho__container">
+      <h1 class="cabecalho__titulo">TO DO </h1>
+      <a href="#" class="cabecalho__img-dia">
+        <!-- <img src="./images/icon-moon.svg"> -->
+      </a>
+    </div>
+  </div>
+
+  <main class="lista-tarefas">
+    <form class="lista-tarefas__nova">
+      <input type="checkbox" class="checkbox checkbox-geral">
+      <input type="text" class="nova-tarefa" placeholder="Adicionar nova tarefa...">
+    </form>
+
+    <section class="lista-tarefas__adicionadas">
+      <ul></ul>
+
+      <div class="lista-tarefas__rodape">
+        <p class="lista-tarefas__rodape__pendentes"></p>
+
+        <div class="lista-tarefas__rodape__filtros">
+          <button
+            class="lista-tarefas__rodape__filtros__btn tarefas-todas lista-tarefas__rodape__filtros__btn--active">Todas</button>
+          <button class="lista-tarefas__rodape__filtros__btn tarefas-ativas">Ativas</button>
+          <button class="lista-tarefas__rodape__filtros__btn tarefas-concluidas">Concluidas</button>
+        </div>
+
+        <button class="lista-tarefas__rodape__limpar-concluidas">Limpar Concluidas</button>
+
+        <script type="module" src="js/app.js"></script>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
