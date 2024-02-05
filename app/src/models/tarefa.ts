@@ -12,9 +12,14 @@ export class Tarefa {
     get id(): number {
         return this._id
     }
+
     get complited(): boolean {
         return this._complited
     }
+    set complited(value: boolean) {
+        this._complited = value;
+    }
+    
     get description(): string {
         return this._description
     }

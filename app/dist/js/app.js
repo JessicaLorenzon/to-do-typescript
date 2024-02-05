@@ -5,4 +5,8 @@ form.addEventListener('submit', e => {
     e.preventDefault();
     controller.adiciona();
 });
+const ul = document.querySelector('.lista-tarefas__adicionadas ul');
+ul.addEventListener('click', e => {
+    controller.verificaClick(e);
+});
 //# sourceMappingURL=app.js.map
