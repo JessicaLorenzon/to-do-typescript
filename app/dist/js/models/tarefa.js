@@ -10,6 +10,9 @@ export class Tarefa {
     get complited() {
         return this._complited;
     }
+    set complited(value) {
+        this._complited = value;
+    }
     get description() {
         return this._description;
     }

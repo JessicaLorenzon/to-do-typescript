@@ -8,3 +8,9 @@ form.addEventListener('submit', e => {
     e.preventDefault();
     controller.adiciona();
 })
+
+const ul = document.querySelector('.lista-tarefas__adicionadas ul') as HTMLElement;
+
+ul.addEventListener('click', e => {
+    controller.verificaClick(e);
+})
