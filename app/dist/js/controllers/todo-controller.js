@@ -28,5 +28,24 @@ export class TodoController {
         }
         this.view.update(this.tarefas);
     }
+    clickFiltros(e) {
+        if (!(e.target instanceof Element)) {
+            return;
+        }
+        if (e.target.getAttribute('data-filter') == 'todas') {
+            this.tarefas.filter = '';
+        }
+        if (e.target.getAttribute('data-filter') == 'ativas') {
+            this.tarefas.filter = 'ativas';
+        }
+        if (e.target.getAttribute('data-filter') == 'concluidas') {
+            this.tarefas.filter = 'concluidas';
+        }
+        this.view.update(this.tarefas);
+    }
+    limparConcluidas() {
+        this.tarefas.limparConcluidas();
+        this.view.update(this.tarefas);
+    }
 }
 //# sourceMappingURL=todo-controller.js.map
