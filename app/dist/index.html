@@ -32,14 +32,13 @@
     <section class="lista-tarefas__adicionadas">
       <ul></ul>
 
-      <div class="lista-tarefas__rodape">
-        <p class="lista-tarefas__rodape__pendentes"></p>
+      <div class="lista-tarefas__rodape  hidden">
+        <p class="lista-tarefas__rodape__pendentes">tarefas pendentes</p>
 
         <div class="lista-tarefas__rodape__filtros">
-          <button
-            class="lista-tarefas__rodape__filtros__btn tarefas-todas lista-tarefas__rodape__filtros__btn--active">Todas</button>
-          <button class="lista-tarefas__rodape__filtros__btn tarefas-ativas">Ativas</button>
-          <button class="lista-tarefas__rodape__filtros__btn tarefas-concluidas">Concluidas</button>
+          <button class="lista-tarefas__rodape__filtros__btn lista-tarefas__rodape__filtros__btn--active" data-filter="todas">Todas</button>
+          <button class="lista-tarefas__rodape__filtros__btn" data-filter="ativas">Ativas</button>
+          <button class="lista-tarefas__rodape__filtros__btn" data-filter="concluidas">Concluidas</button>
         </div>
 
         <button class="lista-tarefas__rodape__limpar-concluidas">Limpar Concluidas</button>

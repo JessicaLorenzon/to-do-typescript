@@ -14,11 +14,14 @@
     --josefin: 'Josefin Sans', sans-serif;
 }
 
-
 body {
     font-family: var(--josefin);
     background-color: var(--neutral-ligth-100);
     font-size: 20px;
+}
+
+.hidden {
+    display: none !important;
 }
 
 .cabecalho {
